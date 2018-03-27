@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+    SSLOption On
+    <Location />
+        Options -Indexes
+    </Location>
+    <Location /path>
+        Options -Indexes
+    </Location>
+</VirtualHost>
